@@ -7,7 +7,11 @@ An API key for Sportmonks is needed to connect to the API.
 This key needs to be inputted in the program at:
   - **"api_key = 'your_API_key_here'"**
 
-All other parameters for the url are listed at this point. 
+The server is also needed to load the data to SQL.
+The server needs to be inputted in the program the two SQL load sections:
+ - **"SERVER=your_server_name;"** 
+
+All other parameters for the url are listed. 
 The API connected to and gathered data from four different endpoints. Each endpoint had multiple pages, and the program looped through each page until all data at the endpoint was collected.
 
 
