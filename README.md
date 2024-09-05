@@ -5,14 +5,16 @@ This program connected to the Sportmonks API to gather team, stage, match summar
 ## Configuration
 An API key for Sportmonks is needed to connect to the API.
 This key needs to be inputted in the program at:
-  - **"api_key = 'your_API_key_here'"**
+  - **api_key = 'your_API_key_here'**
+
+All other parameters for the url are listed. 
 
 The server is also needed to load the data to SQL.
 The server needs to be inputted in the program the two SQL load sections:
  - **"SERVER=your_server_name;"** 
 
-All other parameters for the url are listed. 
-The API connected to and gathered data from four different endpoints. Each endpoint had multiple pages, and the program looped through each page until all data at the endpoint was collected.
+
+The program connected to and gathered data from four different API endpoints. Each endpoint had multiple pages due to the amount of data, therefore the program looped through each page until all data at the endpoint was collected.
 
 
 ## Gathering Data
