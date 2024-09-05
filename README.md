@@ -21,4 +21,4 @@ The program connected to and gathered data from four different API endpoints. Ea
 Once connected to the API, it will gather team, stage, match summary and match statistical data. This data transformed and combined into two different datasets.
 
 ## Output
-The final datasets were pushed to two tables in Microsoft SQL Server Management Studio. Tableau connected to these tables to create an interactive Tableau dashboard, allowing for insightful analysis of key metrics and match results.
+The final datasets were pushed to two tables in Microsoft SQL Server Management Studio. The SQL table creations are included as well. Tableau connected to these tables to create an interactive Tableau dashboard, allowing for insightful analysis of key metrics and match results.
